@@ -1,1 +1,60 @@
 /* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #e2a139, #f9d423);
+}
+.card {
+  background-color: #ffffff;
+  margin: 30px;
+  padding: 30px;
+  width: 500px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  color: #a35200;
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.description {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 0px;
+}
+.toss-image {
+  width: 300px;
+}
+.button {
+  background-color: #f9d423;
+  color: #a35200;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 5px;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.score-container {
+  display: flex;
+  margin-top: 30px;
+}
+.score {
+  font-family: 'Roboto';
+  color: #334155;
+  font-size: 15px;
+  font-weight: 500;
+}
+.heads {
+  margin-right: 30px;
+  margin-left: 30px;
+}
